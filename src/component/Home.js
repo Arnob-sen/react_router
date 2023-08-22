@@ -8,6 +8,9 @@ const Home =()=>
             <h3 className="ui header">
                 HOME
             </h3>
+            <p>
+                lorem40
+            </p>
 
         </div>
     )
