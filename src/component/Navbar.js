@@ -1,4 +1,5 @@
 import React from "react";
+import { Link,NavLink } from "react-router-dom";
 const Navbar=()=>
 {
     return(
@@ -8,9 +9,10 @@ const Navbar=()=>
 
         </a>
         <div className="ui right floated header">
-            <button className="ui button"><a href="/">Home</a></button>
-            <button className="ui button"><a href="About">About</a></button>
-            <button className="ui button"><a href="/Contact">Contact</a></button>
+            <button className="ui button"><Link to="/">Home</Link></button>
+            <button className="ui button"><Link to="about">About</Link></button>
+            <button className="ui button"><NavLink to="/Contact">Contact</NavLink></button>
+            {/* NavLink create a class .by this we can use style in the active link */}
         </div>
 
     </nav>
