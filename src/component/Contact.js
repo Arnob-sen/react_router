@@ -5,15 +5,15 @@ import { useNavigate } from "react-router-dom";
 
 const Contact =()=>
 {
-    const navigate=useNavigate();
+    // const navigate=useNavigate();
     
 
    
-    setTimeout(()=>{
-        navigate('/about')
+    // setTimeout(()=>{
+    //     navigate('/about')
 
-      //  props.history.push("/about")
-    },2000)
+    //   //  props.history.push("/about")
+    // },2000)
     return(
         <div className="ui raised very padded text container segment"
         style={{marginTop:'80px'}}>

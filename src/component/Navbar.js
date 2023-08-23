@@ -1,7 +1,14 @@
 import React from "react";
 import { Link,NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 const Navbar=()=>
 {
+    const navigate=useNavigate();
+    setTimeout(()=>
+    {
+        navigate('/about')
+
+    },2000)
     return(
     <nav className="ui raised very padded segment">
         <a className="ui teal inverted segment">
