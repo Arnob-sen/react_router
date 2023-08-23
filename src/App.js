@@ -5,6 +5,7 @@ import Navbar from "./component/Navbar";
 import Home from "./component/Home";
 import About from "./component/About";
 import Contact from "./component/Contact";
+import Card from "./component/Card";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
   <Route  path='/' Component={Home} />
   <Route path='/about' Component={About} />
   <Route path='/contact' Component={Contact} />
+  <Route path='/card/:user' Component={Card}/>
   </Routes>
   </div>
   </BrowserRouter>
