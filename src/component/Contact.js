@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate,NavLink } from "react-router-dom";
 
 
 
@@ -15,12 +15,21 @@ const Contact =()=>
     //   //  props.history.push("/about")
     // },2000)
     return(
+        <div>
         <div className="ui raised very padded text container segment"
         style={{marginTop:'80px'}}>
-            <h3 className="ui header">
-                Contact
-            </h3>
+            <Link to='/card/alex' className="ui header">
+                Contact alex
+            </Link>
 
+        </div>
+        <div className="ui raised very padded text container segment"
+        style={{marginTop:'80px'}}>
+            <Link to='/card/arnob' className="ui header">
+                Contact arnob
+            </Link >
+
+        </div>
         </div>
     )
 }
