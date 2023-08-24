@@ -18,14 +18,14 @@ const Contact =()=>
         <div>
         <div className="ui raised very padded text container segment"
         style={{marginTop:'80px'}}>
-            <Link to='/card/alex' className="ui header">
+            <Link to='/alex' className="ui header">
                 Contact alex
             </Link>
 
         </div>
         <div className="ui raised very padded text container segment"
         style={{marginTop:'80px'}}>
-            <Link to='/card/arnob' className="ui header">
+            <Link to='/arnob' className="ui header">
                 Contact arnob
             </Link >
 
