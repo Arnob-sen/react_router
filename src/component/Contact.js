@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useNavigate,NavLink } from "react-router-dom";
+import Modal from "./Modal";
 
 
 
@@ -16,6 +17,7 @@ const Contact =()=>
     // },2000)
     return(
         <div>
+            <Modal />
         <div className="ui raised very padded text container segment"
         style={{marginTop:'80px'}}>
             <Link to='/alex' className="ui header">

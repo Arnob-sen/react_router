@@ -16,3 +16,6 @@
     width: 40%;
     text-align: center;
 } 
+.wrapper{
+    position: relative;
+    z-index: 100;}
